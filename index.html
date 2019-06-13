@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" sizes="192x192" href="favicon.png">
+        <link rel="apple-touch-icon" href="favicon.png">
+        <meta name="description" content="Have fun playing my interpretation of the classic game 'Snake'.">
+
+        <title>The Snake | By Antonio Iliev</title>
+
+        <link href="assets/css/styles.css" rel="stylesheet"/>
+        <link href="assets/css/nav.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <div class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu">
+                <li><a href="https://alpibo.com">Work</a></li>
+                <li><a href="https://github.com/antonioiliev">GitHub</a></li>
+                <li><a href="https://alpibo.com/#contact-us">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="flex-column">
+            <div id="canvas-holder">
+                <div class="canvas-text"></div>
+            </div>
+            <div id="controls" class="flex-row">
+                <button id="play" class="control">PLAY</button>
+                <p class="control">SCORE: <span id="game-score"></span></p>
+                <p class="control">LEVEL: <span id="game-level"></span></p>
+            </div>
+        </div>
+
+        <footer>
+            <p>2019 © Antonio Iliev | All rights reserved | Created by <a href="https://alpibo.com" target="_blank">alpibo.com</a></p>
+        </footer>
+
+        <script src="assets/js/libs/hammer/hammer.js"></script>
+        <script src="assets/js/libs/p5/p5.min.js"></script>
+        <script src="assets/js/libs/p5/addons/p5.dom.js"></script>
+        <script src="assets/js/fruit-object.js"></script>
+        <script src="assets/js/obstacle-object.js"></script>
+        <script src="assets/js/snake-object.js"></script>
+        <script src="assets/js/snake.js"></script>
+    </body>
+</html>

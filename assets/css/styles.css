@@ -1,0 +1,113 @@
+html {
+    background: #ffc96c;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+canvas {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 5px dashed #fff;
+    outline: none;
+    z-index: -1;
+    margin: auto;
+}
+
+div, footer {
+    font-family: 'Bangers', cursive;
+}
+
+h2 {
+    text-size: 32px;
+}
+
+ul {
+    list-style-type: square;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 100;
+}
+
+.flex-column {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+#controls {
+    margin-top: -5px!important;
+    width: 300px;
+}
+
+.control {
+    font-family: 'Bangers', cursive;
+    padding:15px 10px;
+    background: #ffc96c;
+    color:#000;
+    font-size:22px;
+    border: 1px solid  #ffc96c;
+}
+
+p.control {
+    margin:0;
+}
+
+.canvas-holder {
+
+}
+
+#play {
+    flex:1;
+    justify-self: start;
+    outline:none;
+}
+
+#play:hover {
+    cursor:pointer;
+    color: #000;
+}
+
+.canvas-text {
+    position: absolute;
+    max-width: 600px;
+    text-align: left;
+    padding: 0px 30px;
+    font-size: 30px;
+    z-index: 1!important;
+}
+
+.canvas-text ul, .canvas-text p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    padding-right: 30px;
+    font-weight: 900;
+}
+
+.canvas-text h2 {
+    color: #000;
+    text-align: center;
+    padding: 0px 30px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: auto;
+}
+
+@media only screen and (max-width: 770px) {
+    .canvas-text {
+        font-size: 22px;
+    }
+}
