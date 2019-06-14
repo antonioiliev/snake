@@ -35,3 +35,8 @@ When the snake eats a fruit, this file contains a 'update' function that generat
 ## [obstacle-object.js](https://github.com/antonioiliev/snake/blob/master/assets/js/obstacle-object.js)
 
 This contains functions that are reponsible for generating obstacle coordinates and then drawing them. It also keeps track of how many obstacles have been generated and their respective coordinates. No obstacle should be drawn over another obstacle, a fruit or the snake.
+
+## License
+
+'The Snake by Antonio Iliev' is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
